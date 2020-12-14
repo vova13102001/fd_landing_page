@@ -33,6 +33,12 @@
 .welcome-article {
 }
 
+@media screen and (min-width: 992px) {
+  .btn-welcome-margins {
+    margin-top: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .welcome-img-wrapper {
     max-width: 70%;
