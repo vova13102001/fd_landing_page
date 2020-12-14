@@ -1,3 +1,5 @@
 @import "./reset.css";
 @import "./grid.css";
+@import "./common.css";
 @import "./header/header.css";
+@import "./welcome-screen/welcome-screen.css";
