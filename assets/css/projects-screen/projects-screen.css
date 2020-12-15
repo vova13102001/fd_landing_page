@@ -19,7 +19,7 @@
   position: absolute;
   z-index: 1;
   padding: 20px 10px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-bg-color);
   text-align: center;
 
   transition: opacity 0.3s ease-in-out;
@@ -87,6 +87,7 @@
   .project-info {
     flex-basis: 50%;
     max-width: 50%;
+    background-color: var(--accent-color);
   }
 
   .project-info {
@@ -108,8 +109,8 @@
     flex-direction: row;
   }
 
-  .project-container:nth-child(4n+3),
-  .project-container:nth-child(4n+4){
+  .project-container:nth-child(4n + 3),
+  .project-container:nth-child(4n + 4) {
     flex-direction: row-reverse;
   }
 }
