@@ -88,11 +88,28 @@
     flex-basis: 50%;
     max-width: 50%;
   }
+
   .project-info {
     position: relative;
     opacity: 1;
   }
+
   .aspect-ratio-square {
     padding-top: 100%;
+  }
+
+  .project-container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-container:nth-child(even) {
+    flex-direction: row;
+  }
+
+  .project-container:nth-child(4n+3),
+  .project-container:nth-child(4n+4){
+    flex-direction: row-reverse;
   }
 }
