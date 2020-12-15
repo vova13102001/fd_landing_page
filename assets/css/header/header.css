@@ -39,12 +39,10 @@
 @media screen and (min-width: 576px) {
   .page-logo {
     --size: 3rem;
-
-    display: block;
+    display: inline;
     font-size: var(--size);
     font-family: "Revalia";
     color: var(--accent-color);
-    text-transform: uppercase;
 
     position: relative;
     bottom: calc(var(--size) / 4);
