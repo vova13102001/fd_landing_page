@@ -36,6 +36,11 @@
   font-size: 1rem;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
 @media screen and (min-width: 576px) {
   .page-logo {
     --size: 3rem;
