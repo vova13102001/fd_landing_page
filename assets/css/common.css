@@ -6,6 +6,8 @@
 
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+
+  scroll-behavior: smooth;
 }
 
 .main-heading,
